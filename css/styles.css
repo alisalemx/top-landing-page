@@ -22,13 +22,32 @@ header {
 }
 
 .button-primary {
-  background-color: #3882F6;
-  display: inline-block;
-  width: fit-content;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
   padding: 0.5rem 2rem;
+  width: fit-content;
+  height: fit-content;
+  background-color: #3882F6;
   border-radius: 0.5rem;
   text-decoration: none;
-  color: white;
+  color: #F9FAF8;
+  min-width: 8rem;
+}
+
+.button-secondary {
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  width: fit-content;
+  height: fit-content;
+  border: 2px solid #F9FAF8;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #F9FAF8;
 }
 
 .site-header {
@@ -148,6 +167,7 @@ main {
 
 .quote blockquote {
   max-width: 900px;
+  padding: 0 2rem;
 }
 
 .quote blockquote p {
@@ -162,4 +182,30 @@ main {
   font-weight: bold;
   text-align: right;
   font-size: 1.125rem;
+}
+
+.cta-area {
+  width: 100%;
+  padding: 5rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-banner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 2rem;
+  background-color: #3882F6;
+  padding: 3rem 8rem;
+  border-radius: 0.5rem;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cta-banner h3 {
+  font-weight: 900;
+  font-size: 1.25rem;
 }
